@@ -1,0 +1,4 @@
+do(
+  define(a, 2),
+  print(a)
+)
