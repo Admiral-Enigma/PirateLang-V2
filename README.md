@@ -1,4 +1,5 @@
-# PirateLang-V2 ![Build Status](https://travis-ci.org/DemSquirrel/PirateLang-V2.svg?branch=master)](https://travis-ci.org/DemSquirrel/PirateLang-V2)
+# PirateLang-V2 
+[![Build Status](https://travis-ci.org/DemSquirrel/PirateLang-V2.svg?branch=master)](https://travis-ci.org/DemSquirrel/PirateLang-V2)  
 Small and fun programming language
 
 # TODO
