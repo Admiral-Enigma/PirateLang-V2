@@ -1,10 +1,12 @@
-# PirateLang-V2 
+# PirateLang-V2
 [![Build Status](https://travis-ci.org/DemSquirrel/PirateLang-V2.svg?branch=master)](https://travis-ci.org/DemSquirrel/PirateLang-V2)  
 Small and fun programming language
 
 # TODO
-    Make IS (interactive shell)
-    Plugin for editors
+1. Make IS (interactive shell)
+2. Plugin for editors
+3. Make it more pirate like
+4. Add some form of grapics api
 
 #Install:
 To install Piratelang you will need to have nodejs installed on your computer, when you have that run this command
