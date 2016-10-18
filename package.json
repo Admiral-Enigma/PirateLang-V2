@@ -1,6 +1,6 @@
 {
   "name": "piratelang",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Small and fun programming language",
   "main": "core.js",
   "scripts": {
