@@ -1,0 +1,23 @@
+{
+  "name": "piratelang2",
+  "version": "1.0.0",
+  "description": "Small and fun programming language",
+  "main": "core.js",
+  "scripts": {
+    "test": "node ./core.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemSquirrel/PirateLang-V2.git"
+  },
+  "keywords": [
+    "programming",
+    "pirate"
+  ],
+  "author": "Lord Squirrel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DemSquirrel/PirateLang-V2/issues"
+  },
+  "homepage": "https://github.com/DemSquirrel/PirateLang-V2#readme"
+}
