@@ -133,7 +133,7 @@ topEnv["false"] = false;
   topEnv[op] = new Function("a, b", "return a " + op + " b;");
 });
 
-topEnv["print"] = function(value) {
+topEnv["ahoy"] = function(value) {
   console.log(value);
   return value;
 };
