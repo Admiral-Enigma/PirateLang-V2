@@ -1,10 +1,13 @@
 {
-  "name": "piratelang2",
+  "name": "piratelang",
   "version": "1.0.0",
   "description": "Small and fun programming language",
   "main": "core.js",
   "scripts": {
     "test": "node ./core.js"
+  },
+  "bin": {
+    "pirate": "is.js"
   },
   "repository": {
     "type": "git",
