@@ -1,15 +1,7 @@
 var argv = require('minimist')(process.argv.slice(2));
 var fs = require('fs');
-var interpre = require('./core.js');
-console.dir(argv);
-function readProgram(input) {
-  var d = '';
-  fs.readFile(input,function (err , data) {
-    if(err) throw err;
-    d = data;
-    console.log(data);
-  });
-  return d;
-}
+var interpreter = require('./core.js');
+var program = fs.readFileSync(argv.f, 'utf8');
+console.log(program);
 
-interpre.run('do(print("Hej"))');
+interpreter.run(program);

@@ -1,4 +1,5 @@
 do(
-  define(a, 2),
-  print(a)
+  define(makeLeet, fun(varTOleet, +(varTOleet, 1337))),
+  define(scrub, 420),
+  print(makeLeet(scrub))
 )
