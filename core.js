@@ -1,5 +1,3 @@
-fs = require('fs');
-
 function parseExpression(program) {
   program = skipSpace(program);
   var match, expr;
@@ -118,6 +116,9 @@ topEnv["print"] = function(value) {
   console.log(value);
   return value;
 };
+exports.run = function (code) {
+  run(code);
+}
 function run() {
   var env = Object.create(topEnv);
   var program = Array.prototype.slice
@@ -127,15 +128,7 @@ function run() {
 /**
 var prog = parse("if(true, false, true)");
 console.log(evaluate(prog, topEnv));**/
-function readProgram(input) {
-  var d = '';
-  fs.readFile(input,function (err , data) {
-    if(err) throw err;
-    d = data;
-    console.log(data);
-  });
-  return d;
-}
 
-run('do(define(a, 2),print(a))');
+
+//run('do(define(a, 2),print(a))');
 //console.log(test);
