@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 var argv = require('minimist')(process.argv.slice(2));
 var fs = require('fs');
+
 var interpreter = require('./core.js');
 var packageJson = fs.readFileSync('./package.json', 'utf8');
 var packageP = JSON.parse(packageJson);

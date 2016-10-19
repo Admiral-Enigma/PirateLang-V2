@@ -1,0 +1,7 @@
+do(
+define(name, in("What is your name?")),
+define(age, in("How old are you lad?")),
+define(yourName, +("Your name is ", name)),
+define(yourAge, +(" and your age is ", age)),
+ahoy(+(yourName, yourAge))
+)

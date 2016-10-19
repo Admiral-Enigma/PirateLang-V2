@@ -1,3 +1,5 @@
+var readlineSync = require('readline-sync');
+
 function parseExpression(program) {
   program = skipSpace(program);
   var match, expr;
@@ -125,8 +127,9 @@ specialForms["fun"] = function(args, env) {
   };
 };
 
-var topEnv = Object.create(null);
 
+
+var topEnv = Object.create(null);
 topEnv["true"] = true;
 topEnv["false"] = false;
 ["+", "-", "*", "/", "==","!=", "<", ">"].forEach(function(op) {
@@ -136,6 +139,11 @@ topEnv["false"] = false;
 topEnv["ahoy"] = function(value) {
   console.log(value);
   return value;
+};
+
+topEnv["in"] = function (value) {
+    var output = readlineSync.question(value+'\n');
+    return output;
 };
 
 exports.run = function (code) {
