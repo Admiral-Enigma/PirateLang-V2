@@ -13,7 +13,7 @@ To install Piratelang you will need to have nodejs installed on your computer, w
 
      npm i piratelang -g
 NOTE: if you are on mac you may have to run the command as sudo
-now you can run your programs by typing
+ <br> now you can run your programs by typing
 
      pirate -f file.txt
 
