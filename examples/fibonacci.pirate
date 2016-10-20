@@ -1,0 +1,9 @@
+do(
+define(f, fun(n, do(
+	if(==(n, 0), ahoy(n), do(if(==(n,1), ahoy(n), do(
+ 	ahoy(+(f(-(n,1)),f(-(n,2))))
+)))),
+))),
+define(input, in("Number:")),
+f(input)
+)
