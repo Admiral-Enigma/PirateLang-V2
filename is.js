@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var argv = require('minimist')(process.argv.slice(2));
 var fs = require('fs');
-var version = '1.2.10';
+var version = '1.2.12';
 var interpreter = require('./core.js');
 
 if(argv.f){
