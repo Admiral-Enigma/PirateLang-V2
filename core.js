@@ -146,6 +146,10 @@ topEnv["in"] = function (value) {
     return output;
 };
 
+topEnv["sqrt"] = function (value) {
+  return Math.sqrt(value);
+}
+
 exports.run = function (code) {
   run(code);
 }
