@@ -7,7 +7,7 @@ do(
 		define(res, +(a,b)),
 		ahoy(sqrt(res))
 	))),
-	define(a1, in("Første tal: ")),
-	define(b1, in("Andet tal: ")),
+	define(a1, int(in("Første tal: "))),
+	define(b1, int(in("Andet tal: "))),
 	pythagoras(a1,b1)
 )

@@ -150,6 +150,10 @@ topEnv["sqrt"] = function (value) {
   return Math.sqrt(value);
 }
 
+topEnv["int"] = function (value) {
+  return parseInt(value);
+}
+
 exports.run = function (code) {
   run(code);
 }

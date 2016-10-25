@@ -4,6 +4,6 @@ define(f, fun(n, do(
  	ahoy(+(f(-(n,1)),f(-(n,2))))
 )))),
 ))),
-define(input, in("Number:")),
+define(input, int(in("Number:"))),
 f(input)
 )
