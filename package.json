@@ -1,6 +1,6 @@
 {
   "name": "piratelang",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "description": "Small and fun programming language",
   "main": "core.js",
   "scripts": {
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/DemSquirrel/PirateLang-V2#readme",
   "dependencies": {
     "minimist": "^1.2.0",
-    "readline-sync": "^1.4.4"
+    "readline-sync": "^1.4.4",
+    "request": "^2.76.0"
   }
 }
