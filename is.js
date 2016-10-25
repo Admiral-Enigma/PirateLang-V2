@@ -4,7 +4,7 @@ var fs = require('fs');
 const request = require('request');
 
 var is = {
-  version: '1.2.14',
+  version: '1.2.15',
   getVersion: function () {
     return this.version;
   },
