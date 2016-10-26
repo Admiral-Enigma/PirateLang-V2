@@ -4,12 +4,12 @@ var fs = require('fs');
 const request = require('request');
 
 var is = {
-  version: '1.2.15',
+  version: '1.2.16',
   getVersion: function () {
     return this.version;
   },
   interpreter: require('./core.js'),
-  help: 'PirateLang Commands:\n-f   : takes an file as input and will then run that file\n-v   : prints out the version number\n-h   : will bring up this list',
+  help: 'PirateLang Commands:\n-f   : takes an file as input and will then run that file\n-v   : prints out the version number\n-h   : will bring up this list\n-u   : checks for updates',
   getHelp: function(){
     return this.help;
   },
