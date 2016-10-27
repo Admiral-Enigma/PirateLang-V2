@@ -4,7 +4,7 @@ var fs = require('fs');
 const request = require('request');
 
 var is = {
-  version: '1.2.16',
+  version: '1.2.17',
   getVersion: function () {
     return this.version;
   },
@@ -21,7 +21,7 @@ var is = {
 }
 
 var updater = {
-  updateServer: 'http://138.68.90.27:443/update',
+  updateServer: 'http://138.68.90.27:5000/update',
   update: function(){
     request(this.updateServer, function (err, res, body) {
         if (!err && res.statusCode === 200) {
