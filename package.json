@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DemSquirrel/PirateLang-V2.git"
+    "url": "git+https://github.com/OxCart/PirateLang-V2.git"
   },
   "keywords": [
     "programming",
     "pirate"
   ],
-  "author": "Lord Squirrel",
+  "author": "OxCart",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DemSquirrel/PirateLang-V2/issues"
+    "url": "https://github.com/OxCart/PirateLang-V2/issues"
   },
-  "homepage": "https://github.com/DemSquirrel/PirateLang-V2#readme",
+  "homepage": "https://github.com/OxCart/PirateLang-V2#readme",
   "dependencies": {
     "minimist": "^1.2.0",
     "readline-sync": "^1.4.4",
